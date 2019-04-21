@@ -9,7 +9,7 @@ a {
 
 #container {
   height: 600px;
-  width: 500px;
+  width: 400px;
   margin: 15% auto;
   position: relative;
   box-shadow: 4px 10px 20px rgba(55, 52, 73, 0.4);
@@ -120,7 +120,7 @@ h1 {
   font-family: "Work Sans", sans-serif;
   color: gray;
   text-transform: uppercase;
-  font-size: 2.2em;
+  font-size: 1.8em;
   text-shadow: 2px 1px 0px rgba(55, 52, 73, 0.9);
 }
 
@@ -185,10 +185,10 @@ p {
 
 /* image */
 .alta img {
-  height: 120px;
+  height: 100px;
   position: absolute;
   top: 20px;
-  right: 55px;
+  right: 35px;
   z-index: 1;
 }
 
