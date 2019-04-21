@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  cursor: pointer;
+  color: black;
 }
 
 #container {
@@ -19,9 +19,9 @@ a {
   position: fixed;
   bottom: 0px;
   right: 0px;
-  width: 50%;
+  width: 300%;
   height: 100%;
-  background: #f44242;
+  background: white;
   -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
   z-index: -1;
@@ -71,14 +71,14 @@ nav {
   position: absolute;
   margin-top: 15%;
   margin-left: 5%;
-  width: 100%;
+  width: 97%;
   height: 80%;
 }
 
 .button {
   position: absolute;
-  width: 30px;
-  height: 15px;
+  width: 60px;
+  height: 30px;
   border-radius: 10%;
 }
 .button:hover {
@@ -88,40 +88,41 @@ nav {
 
 .rosegold {
   background: #f44242;
-  top: -40px;
+  top: -100px;
+  left: 185px;
 }
 
 .coral {
   background: #f44242;
   left: 35px;
-  top: -40px;
+  top: -100px;
 }
 
 .fuschia {
   background: #41f49d;
-  left: 70px;
-  top: -40px;
+  left: 110px;
+  top: -100px;
 }
 
 .black {
   background: #373449;
   left: 105px;
-  top: -40px;
+  top: -100px;
 }
 
 .blue {
   background: #4158f4;
-  left: 105px;
-  top: -40px;
+  left: 260px;
+  top: -100px;
 }
 
 /* text-styling */
 h1 {
   font-family: "Work Sans", sans-serif;
-  color: gray;
+  color: white;
   text-transform: uppercase;
-  font-size: 1.8em;
-  text-shadow: 2px 1px 0px rgba(55, 52, 73, 0.9);
+  font-size: 1.7em;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
 }
 
 #title {
@@ -129,17 +130,27 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   text-transform: uppercase;
   margin-top: -15px;
   letter-spacing: 3px;
   font-family: "Open Sans", sans-serif;
-  color: #373449;
+  color: black;
 }
 
 h3 {
   font-family: "Work Sans", sans-serif;
-  color: #f44242;
+  color: black;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  text-shadow: 2px 1px 0px rgba(55, 52, 73, 0.9);
+}
+
+h4 {
+  position: absolute;
+  top: 250px;
+  font-family: "Work Sans", sans-serif;
+  color: black;
   text-transform: uppercase;
   font-size: 3.5em;
   text-shadow: 2px 1px 0px rgba(55, 52, 73, 0.9);
@@ -152,12 +163,12 @@ p {
   display: inline-block;
   padding: 0 45px;
   text-transform: uppercase;
-  color: #373449;
+  color: black;
 }
 
 #desc {
   position: absolute;
-  top: 85%;
+  top: 75%;
 }
 
 .look {
@@ -172,7 +183,7 @@ p {
 }
 
 .highlight {
-  background-color: #f48c41;
+  background-color: yellow;
 }
 
 .margin-top {
@@ -185,10 +196,11 @@ p {
 
 /* image */
 .alta img {
-  height: 100px;
+  height: 200px;
   position: absolute;
-  top: 20px;
-  right: 35px;
+  top: -65px;
+  left: -20px;
+  right: 0px;
   z-index: 1;
 }
 

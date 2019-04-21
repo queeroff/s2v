@@ -17,8 +17,9 @@ body {
 }
 
 a {
-  cursor: pointer;
+  color: black;
 }
+
 #container {
   height: 600px; 
   width: 400px;
@@ -31,9 +32,9 @@ a {
   position: fixed;
   bottom: 0px;
   right: 0px;
-  width: 50%;
+  width: 300%;
   height: 100%;
-  background: $coral;
+    background: white;
   -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
 clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
   z-index: -1;
@@ -84,14 +85,14 @@ nav {
   position: absolute;
   margin-top: 15%;
   margin-left: 5%;
-  width: 100%;
+  width: 97%;
   height: 80%;
 }
 
 .button {
   position: absolute;
-  width: 30px;
-  height: 15px;
+   width: 60px;
+  height: 30px;
   
   border-radius: 10%;
   &:hover {
@@ -102,62 +103,76 @@ nav {
 
 .rosegold {
   background: $rosegold;
-  top: -40px;
+  top: -100px;
+  left: 185px;
 }
 
 .coral {
   background: $coral;
   left: 35px;
-  top: -40px;
+  top: -100px;
 }
 
 .fuschia {
   background: $fuschia;
-  left: 70px;
-  top: -40px;
+  left: 110px;
+  top: -100px;
 }
 
 .black {
   background: $onyx;
   left: 105px;
-  top: -40px;
+  top: -100px;
 }
 .blue {
   background: $blue;
-  left: 105px;
-  top: -40px;
+  left: 260px;
+  top: -100px;
 }
 
 /* text-styling */
 
 h1 {
   font-family: $big;
-  color: gray;
+  color: white;
   text-transform: uppercase;
-  font-size: 1.8em;
-  text-shadow: 2px 1px 0px rgba($onyx, .9);
+  font-size: 1.7em;
+ 
+  text-shadow: 3px 3px 10px rgba(black, .9);
 }
 #title {
   transition: all 1s ease;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   text-transform: uppercase;
   margin-top: -15px;
   letter-spacing: 3px;
   font-family: $regular;
-  color: $onyx;
+  color: black;
 }
 
 h3 {
   font-family: $big;
-  color: $coral;
+  color: black;
   text-transform: uppercase;
   font-size: 3.5em;
   text-shadow: 2px 1px 0px rgba($onyx, .9);
+ 
 }
 
+h4 {
+  position: absolute;
+  top: 250px;
+   
+  font-family: $big;
+  color: black;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  text-shadow: 2px 1px 0px rgba($onyx, .9);
+ 
+}
 p {
   font-family: $regular;
   font-size: .8em;
@@ -165,12 +180,15 @@ p {
   display: inline-block;
   padding: 0 45px;
   text-transform: uppercase;
-  color: $onyx;
+  color: black;
 }
 
 #desc {
+  
   position: absolute;
-  top: 85%;
+  top: 75%;
+  
+  
 }
 
 .look {
@@ -184,7 +202,7 @@ p {
   transform: rotate(90deg);
 }
 .highlight {
-  background-color: $yellow;
+  background-color: yellow;
 }
 .margin-top {
   margin-top: 135px;
@@ -195,10 +213,11 @@ p {
 
 /* image */
 .alta img {
-  height: 100px;
+  height: 200px;
   position: absolute;
-  top:20px;
-  right: 35px;
+  top:-65px;
+  left: -20px;
+  right: 0px;
   z-index: 1;
 }
 
